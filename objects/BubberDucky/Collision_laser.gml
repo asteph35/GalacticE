@@ -14,6 +14,8 @@ if (hp <= 0){
 	instance_destroy(obj_player)
 	instance_destroy(Bubble)
 	instance_destroy(laser)
+	instance_destroy(rapidToken)
+	instance_destroy(spreadToken)
 	instance_create_layer(960,960, "Instances", Menu)
 
 	instance_destroy();

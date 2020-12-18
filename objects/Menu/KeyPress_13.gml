@@ -10,16 +10,23 @@ switch(menu_index){
 			button[0] = "Shot Count: " + string(obj_controller.shotCount) + "   " + string(obj_controller.shotcount_p);
 
 		}
+		
 		else{
-		//play sound for not working	
+		//play sound for not working
+	
 		}
+		
 		break;
 	case 1:
-		if(score >= obj_controller.vsp_p and obj_controller.spd <= 15){
+		if(score >= obj_controller.vsp_p and obj_controller.spd < 12){
 			score -= obj_controller.vsp_p;
 			obj_controller.spd +=1;
 			obj_controller.vsp_p += 100;
 			button[1] = "Speed: " + string(obj_controller.spd) + "   " + string(obj_controller.vsp_p);
+
+		}
+		else{
+		//play sound for not working
 
 		}
 		break;
@@ -32,7 +39,16 @@ switch(menu_index){
 			button[2] = "Damage: " + string(obj_controller.dmg) + "   " + string(obj_controller.dmg_p);
 		}
 		break;
-	case 3:
+		case 3:
+		if(score >= obj_controller.def_p and obj_controller.def < 5){
+			score -= obj_controller.def_p;
+			obj_controller.def +=1;
+			obj_controller.def_p = obj_controller.def_p +100;
+			button[3] = "Defense: " + string(obj_controller.def) + "   " + string(obj_controller.def_p);
+		}
+		
+		break;
+	case 4:
 	instance_destroy(Menu)
 		room_goto_next();
 		break;

@@ -11,3 +11,15 @@ if menu_index > buttons-1{
 }
 
 last_selected = menu_index
+
+if (obj_controller.shotCount >= 3){
+	
+	button[0] = "Shot Count: " + string(obj_controller.shotCount) + "   " + "MAX";	
+}
+if(obj_controller.spd == 12){
+	button[1] = "Speed: " + string(obj_controller.spd) + "   " + "MAX";	
+}
+if(  obj_controller.def == 5){
+	button[3] = "Defense: " + string(obj_controller.def) + "   " + "MAX";
+}
+	

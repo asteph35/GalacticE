@@ -26,6 +26,10 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_cactus","path":"objects/obj_cactus/obj_cactus.yy",},"parent":{"name":"laser","path":"objects/laser/laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"LeftLooper","path":"objects/LeftLooper/LeftLooper.yy",},"parent":{"name":"laser","path":"objects/laser/laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"BubberDucky","path":"objects/BubberDucky/BubberDucky.yy",},"parent":{"name":"laser","path":"objects/laser/laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Eye","path":"objects/Eye/Eye.yy",},"parent":{"name":"laser","path":"objects/laser/laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Tear","path":"objects/Tear/Tear.yy",},"parent":{"name":"laser","path":"objects/laser/laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ep","path":"objects/obj_ep/obj_ep.yy",},"parent":{"name":"laser","path":"objects/laser/laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"GoldEP","path":"objects/GoldEP/GoldEP.yy",},"parent":{"name":"laser","path":"objects/laser/laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"25","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"bspeed","tags":[],"resourceType":"GMObjectProperty",},
