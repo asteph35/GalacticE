@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 show_debug_message(hp);
-hp += -(obj_player.dmg +25);
+hp += -(obj_controller.dmg +25);
 alarm[0] =4
 sprite_index = spr_cactushurt;
 if (hp <= 0){
 	
-	drop = irandom(19);
+	drop = irandom(25);
 	show_debug_message(drop)
 	if(drop == 5){
 		instance_create_layer(x,y, "Instances", spreadToken)	

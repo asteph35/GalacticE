@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 show_debug_message(hp);
-hp += -(obj_player.dmg/50);
+hp += -(obj_controller.dmg/50);
 alarm[0] =4
 sprite_index = spr_goldEPHurt;
 if (hp <= 0){
@@ -17,7 +17,7 @@ if (hp <= 0){
 	instance_destroy(rapidToken)
 	instance_destroy(spreadToken)
 	
-
+	instance_destroy(obj_ep)
 	instance_destroy();
 	
 }

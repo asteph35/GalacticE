@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 show_debug_message(hp);
-hp += -(obj_player.dmg +30);
+hp += -(obj_controller.dmg +30);
 alarm[0] =4
 sprite_index = spr_duckHurt;
 if (hp <= 0){

@@ -5,6 +5,7 @@ if(instance_exists(obj_player)){
 	obj_player.dmg = dmg
 	obj_player.pspeed = spd;
 	if(obj_player.hp <= 0){
+		audio_play_sound(playerDeath, 3, false)
 		instance_destroy(obj_player);	
 		lives += -1;
 		if(lives >0){

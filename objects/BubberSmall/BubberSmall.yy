@@ -34,8 +34,8 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"hp","path":"objects/BubberDucky/BubberDucky.yy",},"objectId":{"name":"BubberDucky","path":"objects/BubberDucky/BubberDucky.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"shootSpeed","path":"objects/BubberDucky/BubberDucky.yy",},"objectId":{"name":"BubberDucky","path":"objects/BubberDucky/BubberDucky.yy",},"value":"60","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hp","path":"objects/BubberDucky/BubberDucky.yy",},"objectId":{"name":"BubberDucky","path":"objects/BubberDucky/BubberDucky.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"shootSpeed","path":"objects/BubberDucky/BubberDucky.yy",},"objectId":{"name":"BubberDucky","path":"objects/BubberDucky/BubberDucky.yy",},"value":"70","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",

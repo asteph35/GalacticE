@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 obj_player.rapid = true
-alarm[1] = 300
+alarm[1] = 350

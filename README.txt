@@ -22,12 +22,22 @@ Collect Powerups to increase power of Ship:
 Rapid fire power up: increase attack speed
 Spread power up: Shoots lasers in a spread formation
 
-Endless level for now, will change to be fixed and bosses, more enemy types to be added later on, this is just a simple Demo!
+Three levels, each with their own enemies and unique Bosses. 
+The levels are on a timer to begin with, after the timer ends a boss is spawned in and the player has to defeat that boss to proceed.
+In between each level is a chance to upgrade the ship permanently. 
+
+Upgrades:
+Shot count: increases number of bullets shot at a time
+Speed: speed of ship
+Damage: increases damage of bullets
+Defense: buffer from enemy damage
+
+Win by defeating the three bosses!
 
 ---------------------------------------
 Cheat Codes:
-O: Rapid Fire
-P: Spread
+O: Rapid Fire Permanent 
+P: Spread Permanent 
 1: 1 shot
 2: 2 shot
 3: 3 shot

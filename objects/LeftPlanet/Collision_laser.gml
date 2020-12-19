@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 show_debug_message(hp);
-hp += -(obj_player.dmg +90);
+hp += -(obj_controller.dmg +90);
 alarm[0] =4
 sprite_index = spr_planetHurt;
 if (hp <= 0){

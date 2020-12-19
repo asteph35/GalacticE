@@ -38,6 +38,7 @@ if keyboard_check(ord("R")){
 	game_restart()
 }
 if obj_player.canShoot == true and keyboard_check(vk_space){
+	audio_play_sound(shoot, 1, false)
 	obj_player.canShoot = false
 	if (not rapid){
 		alarm_set(0, 20);
